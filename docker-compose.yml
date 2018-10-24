@@ -2,7 +2,7 @@ version: "3"
 
 services:
     dnsforwarder:
-        image: dnsforwarder
+        image: tazdingo/dnsforwarder
         ports:
             - "53:53"
             - "53:53/udp"

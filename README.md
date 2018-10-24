@@ -1,3 +1,3 @@
 ## DNSForwarder for Docker
 
-Based on holmium/dnsforwarder
+Based on [holmium/dnsforwarder](https://github.com/holmium/dnsforwarder)
