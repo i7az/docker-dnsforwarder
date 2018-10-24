@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    dnsforwarder:
+        image: dnsforwarder
+        ports:
+            - "53:53"
+            - "53:53/udp"
+        restart: always
+        container_name: "dnsforwarder" 
