@@ -23,4 +23,4 @@ run rm -rf /dnsforwarder
 expose 53
 expose 53/udp
 
-cmd ["dnsforwarder","-f","/etc/dnsforwarder/config"]
+cmd ["dnsforwarder","-q","-f","/etc/dnsforwarder/config"]
